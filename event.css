@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #4a90d9;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#userBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+main {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 4px;
+  background: #4a90d9;
+  color: white;
+  cursor: pointer;
+}
+
+header button {
+  margin-top: 0;
+  background: #e74c3c;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+.hint {
+  margin-top: 15px;
+  padding: 10px;
+  background: #eef5ff;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
